@@ -26,10 +26,10 @@ class Solution:
 def main():
      solution=Solution()
 
-     print(solution.isPalindrome(s="anagram")) 
-     print(solution.isPalindrome(s="madam" ))
-     print(solution.isPalindrome(s="maam" ))
-     print(solution.isPalindrome(s="car"))          
+     print(solution.isPalindrome(s="an,an")) 
+     print(solution.isPalindrome(s=" a canal: Panama" ))
+     print(solution.isPalindrome(s=" a plan" ))
+     print(solution.isPalindrome(s="A man, a plan, a canal: Panama"))          
 
 
 if __name__ == "__main__":

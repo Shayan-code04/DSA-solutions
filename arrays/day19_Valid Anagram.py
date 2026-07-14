@@ -34,7 +34,7 @@ def main():
      print(solution.isAnagram(s="anagram",t="nagaram")) # True
      print(solution.isAnagram(s="anagra", t="nagara"))
      print(solution.isAnagram(s="anagram", t="nagarui"))
-     print(solution.isAnagram(s="ammgram",t="mmmgraa"))           # False
+     print(solution.isAnagram(s="ammgram",t="mmmgraa"))           
 
 
 if __name__ == "__main__":
