@@ -1,12 +1,22 @@
+'''Given an integer array nums, return
+all the triplets [nums[i], nums[j], 
+nums[k]] such that i != j, i != k, and j != k, 
+and nums[i] + nums[j] + nums[k] == 0.'''
+
+
+
+'''sliding Window'''
+
+
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()
         result = []
 
-        # Fix one number at a time
+        ''' Fix one number at a time'''
         for i in range(len(nums) - 2):
 
-            # Skip duplicate fixed numbers
+            #Skip duplicate fixed numbers
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
 
